@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OverlapView_Example' do
+  pod 'OverlapView', :path => '../'
+
+  target 'OverlapView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

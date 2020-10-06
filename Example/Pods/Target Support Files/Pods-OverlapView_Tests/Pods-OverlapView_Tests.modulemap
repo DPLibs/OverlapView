@@ -1,0 +1,6 @@
+framework module Pods_OverlapView_Tests {
+  umbrella header "Pods-OverlapView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

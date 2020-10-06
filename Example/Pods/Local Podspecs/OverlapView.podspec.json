@@ -1,0 +1,22 @@
+{
+  "name": "OverlapView",
+  "version": "0.1.0",
+  "summary": "A short description of OverlapView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Dmitriy Polyakov/OverlapView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dmitriy Polyakov": "dmitriyap11@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Dmitriy Polyakov/OverlapView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OverlapView/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - OverlapView (0.1.0)
+
+DEPENDENCIES:
+  - OverlapView (from `../`)
+
+EXTERNAL SOURCES:
+  OverlapView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OverlapView: cc6f15ac74b7abfd727311d4f7bd784b6a72fd1b
+
+PODFILE CHECKSUM: 0346dfe3bba0c9deebb5ba06f0927a284b435292
+
+COCOAPODS: 1.8.4
