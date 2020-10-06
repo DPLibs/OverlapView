@@ -19,9 +19,9 @@ public extension ActivityOverlapViewPresetable where Self: UIViewController {
 }
 
 public struct ActivityOverlapViewMode {
-    let backgroundColor: UIColor
-    let activityColor: UIColor
-    let coverColor: UIColor
+    public let backgroundColor: UIColor
+    public let activityColor: UIColor
+    public let coverColor: UIColor
     
     public init(backgroundColor: UIColor, activityColor: UIColor, coverColor: UIColor) {
         self.backgroundColor = backgroundColor
@@ -29,8 +29,8 @@ public struct ActivityOverlapViewMode {
         self.coverColor = coverColor
     }
     
-    static let lightBgGrayAc = ActivityOverlapViewMode(backgroundColor: .white, activityColor: .gray, coverColor: .clear)
-    static let darkBgWhiteAc = ActivityOverlapViewMode(backgroundColor: .black, activityColor: .white, coverColor: .clear)
+    public static let lightBgGrayAc = ActivityOverlapViewMode(backgroundColor: .white, activityColor: .gray, coverColor: .clear)
+    public static let darkBgWhiteAc = ActivityOverlapViewMode(backgroundColor: .black, activityColor: .white, coverColor: .clear)
 }
 
 open class ActivityOverlapView: OverlapView {
